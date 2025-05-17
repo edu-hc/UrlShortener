@@ -100,18 +100,6 @@ O MongoDB verifica periodicamente esse campo e remove automaticamente os documen
 
 ---
 
-## 📂 Estrutura da entidade principal
-
-public class Url {
-    private String id;                   // ID curto da URL
-    private String fullUrl;              // URL original
-    private LocalDateTime expiresAt;     // Data/hora de expiração
-    private int accessCount;             // Quantidade de acessos
-    private List<String> accessedBy;     // Lista de IPs que acessaram
-}
-
----
-
 ## 🧪 Como testar
 
 Você pode usar ferramentas como **Postman**, **Insomnia** ou **cURL** para testar os endpoints.
@@ -136,15 +124,6 @@ src/
 │   └── Url.java
 ├── repository/
 │   └── UrlRepository.java
-
----
-
-## 🚧 Melhorias futuras (ideias)
-
-* Autenticação para gerenciamento de URLs
-* Tempo de expiração customizável por requisição
-* Painel web com estatísticas e histórico
-* Sistema de analytics completo com filtros
 
 ---
 
