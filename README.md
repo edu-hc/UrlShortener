@@ -112,21 +112,6 @@ curl -X POST http://localhost:8080/shorten \
 
 ---
 
-## 📌 Organização do projeto
-
-src/
-├── controller/
-│   ├── UrlController.java
-│   └── dto/
-│       ├── ShortenUrlRequest.java
-│       └── ShortenUrlResponse.java
-├── entities/
-│   └── Url.java
-├── repository/
-│   └── UrlRepository.java
-
----
-
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Se tiver ideias, bugs ou sugestões, abra uma issue ou envie um pull request.
